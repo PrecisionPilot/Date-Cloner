@@ -1,0 +1,40 @@
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe.config
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.pdb
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csprojAssemblyReference.cache
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Form1.resources
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Properties.Resources.resources
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.GenerateResource.cache
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.CoreCompileInputs.cache
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.exe
+H:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.pdb
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe.config
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.pdb
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csprojAssemblyReference.cache
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Form1.resources
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Properties.Resources.resources
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.GenerateResource.cache
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.CoreCompileInputs.cache
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.exe
+L:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.pdb
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe.config
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.pdb
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csprojAssemblyReference.cache
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Form1.resources
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Properties.Resources.resources
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.GenerateResource.cache
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.CoreCompileInputs.cache
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.exe
+J:\External Hard Drive\-Files-\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.pdb
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe.config
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.exe
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\bin\Debug\Date Cloner.pdb
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csprojAssemblyReference.cache
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Form1.resources
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date_Cloner.Properties.Resources.resources
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.GenerateResource.cache
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.CoreCompileInputs.cache
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.exe
+C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.pdb
