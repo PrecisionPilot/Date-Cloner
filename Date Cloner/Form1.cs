@@ -52,8 +52,8 @@ namespace Date_Cloner
                     originalFilesSize += originalFile.Length;
                 }
             }
-            double convertedFilesSizeMB = Math.Round((double)convertedFilesSize / Math.Pow(2, 30), 1); // Convert to megabytes
-            double originalFilesSizeMB = Math.Round((double)originalFilesSize / Math.Pow(2, 30), 1);
+            double convertedFilesSizeMB = Math.Round((double)convertedFilesSize / Math.Pow(2, 30), 2); // Convert to megabytes
+            double originalFilesSizeMB = Math.Round((double)originalFilesSize / Math.Pow(2, 30), 2);
             double savedSize = Math.Round(((double)originalFilesSize - (double)convertedFilesSize) / Math.Pow(2, 30), 1);
             double percentSaved = Math.Round((((double)originalFilesSize - (double)convertedFilesSize) / (double)originalFilesSize) * 100, 2);
 
