@@ -52,14 +52,14 @@ namespace Date_Cloner
                     originalFilesSize += originalFile.Length;
                 }
             }
-            double convertedFilesSizeMB = Math.Round((double)convertedFilesSize / 1000000, 1); // Convert to megabytes
-            double originalFilesSizeMB = Math.Round((double)originalFilesSize / 1000000, 1);
-            double savedSize = Math.Round(((double)originalFilesSize - (double)convertedFilesSize) / 1000000, 1);
+            double convertedFilesSizeMB = Math.Round((double)convertedFilesSize / Math.Pow(2, 30), 1); // Convert to megabytes
+            double originalFilesSizeMB = Math.Round((double)originalFilesSize / Math.Pow(2, 30), 1);
+            double savedSize = Math.Round(((double)originalFilesSize - (double)convertedFilesSize) / Math.Pow(2, 30), 1);
             double percentSaved = Math.Round((((double)originalFilesSize - (double)convertedFilesSize) / (double)originalFilesSize) * 100, 2);
 
             // Get file size of matching files
             if (DialogResult.Yes != MessageBox.Show("Are you sure you want to proceed?\n\nSize of original videos:  " + originalFilesSizeMB +
-                " MB\nSize of compressed videos:  " + convertedFilesSizeMB + " MB\nYou will save:  " + savedSize + " MB (" + percentSaved + "%)", "Conformation", MessageBoxButtons.YesNo, MessageBoxIcon.Information))
+                " GB\nSize of compressed videos:  " + convertedFilesSizeMB + " GB\nYou will save:  " + savedSize + " GB (" + percentSaved + "%)", "Conformation", MessageBoxButtons.YesNo, MessageBoxIcon.Information))
             {
                 return;
             }
