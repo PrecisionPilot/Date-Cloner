@@ -37,6 +37,32 @@ namespace Date_Cloner
                 MessageBox.Show("You have not made a selection", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            // Calculate how much storage you'll save
+            // Get file size of file dialog selection
+            long convertedFilesSize = 0;
+            long originalFilesSize = 0;
+            foreach (string fileName in Copy.FileNames)
+            {
+                convertedFilesSize += new FileInfo(fileName).Length;
+
+                string originalFileName = fileName.Substring(0, fileName.Length - 14) + ".mp4";
+                FileInfo originalFile = new FileInfo(originalFileName);
+                if (originalFile.Exists)
+                {
+                    originalFilesSize += originalFile.Length;
+                }
+            }
+            double convertedFilesSizeMB = Math.Round((double)convertedFilesSize / 1000000, 1); // Convert to megabytes
+            double originalFilesSizeMB = Math.Round((double)originalFilesSize / 1000000, 1);
+            double savedSize = Math.Round(((double)originalFilesSize - (double)convertedFilesSize) / 1000000, 1);
+            double percentSaved = Math.Round((((double)originalFilesSize - (double)convertedFilesSize) / (double)originalFilesSize) * 100, 2);
+
+            // Get file size of matching files
+            if (DialogResult.Yes != MessageBox.Show("Are you sure you want to proceed?\n\nSize of original videos:  " + originalFilesSizeMB +
+                " MB\nSize of compressed videos:  " + convertedFilesSizeMB + " MB\nYou will save:  " + savedSize + " MB (" + percentSaved + "%)", "Conformation", MessageBoxButtons.YesNo, MessageBoxIcon.Information))
+            {
+                return;
+            }
             try
             {
                 button1.Enabled = false;
@@ -47,6 +73,7 @@ namespace Date_Cloner
                 {
                     progressBar.Value = v;
                 });
+
 
 
                 Task t = Task.Run(() => Clone(progress));
@@ -69,33 +96,28 @@ namespace Date_Cloner
         public void Clone(IProgress<int> progress)//executed in another thread
         {
             int copiedFiles = 0;
-            List<string> toCopyFiles = new List<string>();
+            List<string> originalFileList = new List<string>();
 
-            for (int I = 0; I < Copy.FileNames.Length; I++)//for each files to copy
+            for (int i = 0; i < Copy.FileNames.Length; i++)//for each files to copy
             {
-                for (int i = 0; i < Copy.FileNames.Length; i++)//find a matching file name from the files to paste
+                string originalFileName = Copy.FileNames[i].Substring(0, Copy.FileNames[i].Length - 14) + ".mp4";//store the files that are to be copied as a variable
+                if (File.Exists(originalFileName))
                 {
-                    string toCopyFile = Copy.FileNames[I].Substring(0, Copy.FileNames[I].Length - 14) +".mp4";//store the file that are to be copied as a variable
-
-                    if (Path.GetFileNameWithoutExtension(toCopyFile) + "-converted.mp4" == Path.GetFileName(Copy.FileNames[i]))
+                    try
                     {
-                        try
-                        {
-                            File.SetCreationTime(Copy.FileNames[i], File.GetCreationTime(toCopyFile));
-                            File.SetLastWriteTime(Copy.FileNames[i], File.GetLastWriteTime(toCopyFile));
-                            toCopyFiles.Add(toCopyFile);//add the file to the list
-                            copiedFiles++;
-                            break;
-                        }
-                        catch(Exception e)
-                        {
-                            exception = "\n\n" + e.ToString();
-                        }
+                        File.SetCreationTime(Copy.FileNames[i], File.GetCreationTime(originalFileName));
+                        File.SetLastWriteTime(Copy.FileNames[i], File.GetLastWriteTime(originalFileName));
+                        originalFileList.Add(originalFileName);//add the file to the list
+                        copiedFiles++;
+                    }
+                    catch (Exception e)
+                    {
+                        exception = "\n\n" + e.ToString();
                     }
                 }
                 progress.Report(copiedFiles * 80 / Copy.FileNames.Length);
             }
-            string[] toCopyFilesArray = toCopyFiles.ToArray();
+            string[] toCopyFilesArray = originalFileList.ToArray();
             
             foreach (string file in toCopyFilesArray)//Delete original files
             {

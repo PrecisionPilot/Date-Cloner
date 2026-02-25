@@ -38,3 +38,14 @@ C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debu
 C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.CoreCompileInputs.cache
 C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.exe
 C:\Users\seanw\OneDrive\Projects\.NET Framework\Date Cloner\Date Cloner\obj\Debug\Date Cloner.pdb
+C:\_Programming\Date-Cloner\Date Cloner\bin\Debug\Date Cloner.exe.config
+C:\_Programming\Date-Cloner\Date Cloner\bin\Debug\Date Cloner.exe
+C:\_Programming\Date-Cloner\Date Cloner\bin\Debug\Date Cloner.pdb
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.AssemblyReference.cache
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date Cloner.exe.config
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date_Cloner.Form1.resources
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date_Cloner.Properties.Resources.resources
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.GenerateResource.cache
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date Cloner.csproj.CoreCompileInputs.cache
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date Cloner.exe
+C:\_Programming\Date-Cloner\Date Cloner\obj\Debug\Date Cloner.pdb
